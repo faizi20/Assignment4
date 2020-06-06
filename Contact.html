@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us -FlexStore.pk</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .column,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+        .fa-facebook-official,
+        .fa-whatsapp,
+        .fa-instagram {
+            font-size: 30px !important;
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer {
+            background-color: rgb(37, 39, 46) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: sticky; top: 0; z-index: 1071;">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo1.png" style="height: 45px;" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Mens.html">MEN's</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Accessories.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ACCESSORIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Accessories.html">Printed Mobile cover</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <span class="navbar" style="font-size: 25px;">
+                <a href="user.html" style="text-decoration: none; color: black;"> <i class="fa fa-user-circle"
+                        aria-hidden="true" style="margin-right: 12px;"></i></a>
+                <a href="card.html" style="text-decoration: none; color: black;"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></a>
+
+            </span>
+        </div>
+    </nav>
+
+    <!-- form -->
+    <div style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="container" style="border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 10px;">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>You can reach us by filling the contact form below or call us at (+92) 0333-3846157</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">NAME</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">EMAIL</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">COUNTRY</label>
+                        <select id="country" name="country">
+                            <option value="australia">PAKISTAN</option>
+                            <option value="canada">LAHORE</option>
+                            <option value="usa">KARACHI</option>
+                        </select>
+                        <label for="subject">MESSAGE</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:170px"></textarea>
+                        <input type="submit" value="Submit" style="background-color: black;">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+            <div class=" row">
+                <div class="col-md-4">
+                    <p style="color: white; font-weight: bold; letter-spacing: 5px;">GOT A QUESION?</p>
+
+                    <p style="color: white;">Reach us at</p>
+
+                    <p style="color: white; font-weight: bold;">SUPPORT@FLEX.PK</p>
+
+                    <p style="color: white; font-weight: bold;"> Call : <a href="tel:03333846157"
+                            style="color: white; border-bottom: 2px solid rgba(255,255,255,0.1); text-decoration: none;">03333846157</a>
+                    </p>
+
+                    <p style="color: white;">Our timings are Mon-Sat 9am-6pm</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="color: white; font-weight: bold; letter-spacing: 5px;">QUICK LINKS</p>
+                    <p style="color: white;">Account</p>
+                    <p style="color: white;"> Exchange/Refund</p>
+                    <p style="color: white;">About us</p>
+                    <p style="color: white;">Contact us</p>
+                </div>
+                <div class="col-md-4" style="margin: 0px;">
+                    <div>
+                        <p style="color: white; font-weight: bold; letter-spacing: 4px;">CONNCET WITH US</p>
+                        <a class="p" href="#" style="margin: 5px;">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" style="margin: 5px; text-decoration: none;">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" style="margin: 5px; text-decoration: none;">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom" style="background-color: #316DC3; color: white; text-align: center; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="padding-top: 5px; padding-bottom: 5px; font-size: small;">
+                        Copyright © 2020 FlexStore.pk
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
